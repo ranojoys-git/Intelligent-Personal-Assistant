@@ -1,13 +1,3 @@
-"""
- Copyright (C) 2020 Dabble Lab - All Rights Reserved
- You may use, distribute and modify this code under the
- terms and conditions defined in file 'LICENSE.txt', which
- is part of this source code package.
- 
- For additional copyright information please
- visit : http://dabblelab.com/copyright
- """
-
 from ask_sdk_core.utils import is_request_type, is_intent_name
 from ask_sdk_core.dispatch_components import (AbstractRequestHandler, AbstractExceptionHandler, AbstractRequestInterceptor, AbstractResponseInterceptor)
 from ask_sdk_core.skill_builder import SkillBuilder
